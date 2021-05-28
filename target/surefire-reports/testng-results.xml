@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12344" started-at="2021-05-28T21:40:41 IST" finished-at="2021-05-28T21:40:53 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12344" started-at="2021-05-28T21:40:41 IST" finished-at="2021-05-28T21:40:53 IST">
+      <class name="com.Tests.API_Test01">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.Tests.API_Test01@3632be31]" name="beforeSuite" is-config="true" duration-ms="63" started-at="2021-05-28T21:40:41 IST" finished-at="2021-05-28T21:40:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforetest(java.lang.String)[pri:0, instance:com.Tests.API_Test01@3632be31]" name="beforetest" is-config="true" duration-ms="368" started-at="2021-05-28T21:40:41 IST" finished-at="2021-05-28T21:40:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.spacexdata.com/v4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.Tests.API_Test01@3632be31]" name="beforeMethod" is-config="true" duration-ms="18" started-at="2021-05-28T21:40:41 IST" finished-at="2021-05-28T21:40:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyAPIResponseTime()[pri:0, instance:com.Tests.API_Test01@3632be31]" name="verifyAPIResponseTime" duration-ms="3881" started-at="2021-05-28T21:40:41 IST" description="This Test is to verify api response time" finished-at="2021-05-28T21:40:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAPIResponseTime -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.Tests.API_Test01@3632be31]" name="afterMethod" is-config="true" duration-ms="51" started-at="2021-05-28T21:40:45 IST" finished-at="2021-05-28T21:40:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAPIResponseTime status=SUCCESS method=API_Test01.verifyAPIResponseTime()[pri:0, instance:com.Tests.API_Test01@3632be31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.Tests.API_Test01@3632be31]" name="beforeMethod" is-config="true" duration-ms="27" started-at="2021-05-28T21:40:45 IST" finished-at="2021-05-28T21:40:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyResponseCode()[pri:0, instance:com.Tests.API_Test01@3632be31]" name="verifyResponseCode" duration-ms="1883" started-at="2021-05-28T21:40:45 IST" description="This Test is to verify api response code" finished-at="2021-05-28T21:40:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseCode -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.Tests.API_Test01@3632be31]" name="afterMethod" is-config="true" duration-ms="56" started-at="2021-05-28T21:40:47 IST" finished-at="2021-05-28T21:40:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResponseCode status=SUCCESS method=API_Test01.verifyResponseCode()[pri:0, instance:com.Tests.API_Test01@3632be31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.Tests.API_Test01@3632be31]" name="beforeMethod" is-config="true" duration-ms="18" started-at="2021-05-28T21:40:47 IST" finished-at="2021-05-28T21:40:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyResponseStatus()[pri:0, instance:com.Tests.API_Test01@3632be31]" name="verifyResponseStatus" duration-ms="1858" started-at="2021-05-28T21:40:47 IST" description="This Test is to verify api response status" finished-at="2021-05-28T21:40:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseStatus -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.Tests.API_Test01@3632be31]" name="afterMethod" is-config="true" duration-ms="16" started-at="2021-05-28T21:40:49 IST" finished-at="2021-05-28T21:40:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResponseStatus status=SUCCESS method=API_Test01.verifyResponseStatus()[pri:0, instance:com.Tests.API_Test01@3632be31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.Tests.API_Test01@3632be31]" name="beforeMethod" is-config="true" duration-ms="17" started-at="2021-05-28T21:40:49 IST" finished-at="2021-05-28T21:40:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verify_FlightNumber()[pri:0, instance:com.Tests.API_Test01@3632be31]" name="verify_FlightNumber" duration-ms="2533" started-at="2021-05-28T21:40:49 IST" description="This Test is to verify json parameter named flight_number" finished-at="2021-05-28T21:40:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_FlightNumber -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.Tests.API_Test01@3632be31]" name="afterMethod" is-config="true" duration-ms="15" started-at="2021-05-28T21:40:51 IST" finished-at="2021-05-28T21:40:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_FlightNumber status=SUCCESS method=API_Test01.verify_FlightNumber()[pri:0, instance:com.Tests.API_Test01@3632be31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.Tests.API_Test01@3632be31]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2021-05-28T21:40:51 IST" finished-at="2021-05-28T21:40:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verify_ID()[pri:0, instance:com.Tests.API_Test01@3632be31]" name="verify_ID" duration-ms="1552" started-at="2021-05-28T21:40:51 IST" description="This Test is to verify json parameter named id" finished-at="2021-05-28T21:40:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ID -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.Tests.API_Test01@3632be31]" name="afterMethod" is-config="true" duration-ms="14" started-at="2021-05-28T21:40:53 IST" finished-at="2021-05-28T21:40:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_ID status=SUCCESS method=API_Test01.verify_ID()[pri:0, instance:com.Tests.API_Test01@3632be31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.Tests.API_Test01@3632be31]" name="afterSuite" is-config="true" duration-ms="4" started-at="2021-05-28T21:40:53 IST" finished-at="2021-05-28T21:40:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.Tests.API_Test01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

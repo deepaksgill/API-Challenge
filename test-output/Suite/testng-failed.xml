@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.TestFrameWork.ExtentTestNGIReporterListener"/>
+    <listener class-name="com.TestFrameWork.RetryListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="baseURL" value="https://api.spacexdata.com/v4"/>
+    <classes>
+      <class name="com.Tests.API_Test01">
+        <methods>
+          <include name="beforetest"/>
+          <include name="beforeMethod"/>
+          <include name="verify_ID"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="verifyAPIResponseTime"/>
+        </methods>
+      </class> <!-- com.Tests.API_Test01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
